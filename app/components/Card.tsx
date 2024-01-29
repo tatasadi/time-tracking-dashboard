@@ -1,6 +1,7 @@
 import Image from "next/image"
 import React from "react"
 import ellipsis from "../../public/images/icon-ellipsis.svg"
+import IconEllipsis from "./IconEllipsis"
 
 interface CardProps {
   image: string
@@ -31,10 +32,10 @@ const Card: React.FC<CardProps> = ({
         alt={`icon ${title}`}
         className="absolute -top-1 right-3 z-0 w-[4.875rem]"
       />
-      <div className="bg-neutral-dark-blue relative top-[2.37rem] z-10 flex flex-col rounded-[0.9375rem] p-6 lg:gap-6">
+      <div className="bg-neutral-dark-blue hover:bg-neutral-medium-blue relative top-[2.37rem] z-10 flex cursor-pointer flex-col rounded-[0.9375rem] p-6 lg:gap-6">
         <div className="flex items-center justify-between">
           <h2 className="text-lg">{title}</h2>
-          <Image src={ellipsis} alt="ellipsis" />
+          <IconEllipsis className="fill-neutral-pale-blue cursor-pointer hover:fill-white" />
         </div>
         <div className="flex items-center justify-between lg:flex-col lg:items-start">
           <p className="text-[2rem] lg:text-[3.5rem]">

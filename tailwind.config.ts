@@ -23,6 +23,7 @@ const config: Config = {
           "dark-blue": "hsl(235, 46%, 20%)",
           "desaturated-blue": "hsl(235, 45%, 61%)",
           "pale-blue": "hsl(236, 100%, 87%)",
+          "medium-blue": "hsl(236, 41%, 34%)",
         },
       },
     },
