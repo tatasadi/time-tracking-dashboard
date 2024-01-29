@@ -25,7 +25,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${rubik.className} flex min-h-screen flex-col items-center justify-center`}
+        className={`${rubik.className} bg-neutral-very-dark-blue flex min-h-screen flex-col items-center justify-center text-white`}
       >
         {children}
       </body>

@@ -11,12 +11,12 @@ const config: Config = {
       colors: {
         primary: {
           blue: "hsl(246, 80%, 60%)",
-          "light-red-work": "hsl(15, 100%, 70%)",
-          "soft-blue-play": "hsl(195, 74%, 62%)",
-          "light-red-study": "hsl(348, 100%, 68%)",
-          "lime-green-exercise": "hsl(145, 58%, 55%)",
-          "violet-social": "hsl(264, 64%, 52%)",
-          "soft-orange-self-care": "hsl(43, 84%, 65%)",
+          orange: "hsl(15, 100%, 70%)",
+          turkis: "hsl(195, 74%, 62%)",
+          red: "hsl(348, 100%, 68%)",
+          green: "hsl(145, 58%, 55%)",
+          violet: "hsl(264, 64%, 52%)",
+          yellow: "hsl(43, 84%, 65%)",
         },
         neutral: {
           "very-dark-blue": "hsl(226, 43%, 10%)",

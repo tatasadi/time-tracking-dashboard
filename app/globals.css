@@ -14,7 +14,15 @@
     white-space: nowrap; /* added line */
     border: 0;
   }
-  
+
+  .nav-item {
+    @apply cursor-pointer text-lg leading-normal;
+  }
+
+  .nav-item.active {
+    @apply text-white;
+  }
+
   .footer-link {
     @apply cursor-pointer underline;
   }
