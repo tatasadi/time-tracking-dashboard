@@ -77,9 +77,26 @@ export default function Home() {
           </div>
           <nav>
             <ul className="text-neutral-desaturated-blue flex justify-between gap-2 p-6 lg:flex-col lg:text-lg">
-              <li className="nav-item">Daily</li>
-              <li className="nav-item active">Weekly</li>
-              <li className="nav-item">Monthly</li>
+              <li
+                className={`nav-item ${timeFrame === "Daily" ? "active" : ""}`}
+                onClick={() => setTimeFrame("Daily")}
+              >
+                Daily
+              </li>
+              <li
+                className={`nav-item ${timeFrame === "Weekly" ? "active" : ""}`}
+                onClick={() => setTimeFrame("Weekly")}
+              >
+                Weekly
+              </li>
+              <li
+                className={`nav-item ${
+                  timeFrame === "Monthly" ? "active" : ""
+                }`}
+                onClick={() => setTimeFrame("Monthly")}
+              >
+                Monthly
+              </li>
             </ul>
           </nav>
         </div>
